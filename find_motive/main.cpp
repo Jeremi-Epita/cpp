@@ -13,7 +13,6 @@ int main(int argc, char *argv[])
     int count = 0;
     while(file >> w)
     {
-        std::cout << w << "\n";
         if(w.find(argv[2]) != std::string::npos)
             count++;
     }
