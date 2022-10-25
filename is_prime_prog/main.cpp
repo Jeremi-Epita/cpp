@@ -16,7 +16,7 @@ bool is_prime(unsigned x)
 
 int main(int argc, char *argv[])
 {
-    unsignes n;
+    unsigned n;
     while(std::cin >> n)
     {
         if(is_prime(n))
