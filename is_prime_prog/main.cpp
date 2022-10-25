@@ -1,12 +1,12 @@
 #include <iostream>
 
-bool is_prime(long long x)
+bool is_prime(unsigned x)
 {
-    if (x <= 1) {
+    if (x <= 1 || x%2 == 0 && x != 2) {
         return false;
     }
 
-    for (int i = 3; i <= x/2; i = i + 2) {
+    for (int i = 3; i <= x/2; i+=2) {
         if (x % i == 0) {
             return false;
         }
@@ -16,7 +16,7 @@ bool is_prime(long long x)
 
 int main(int argc, char *argv[])
 {
-    long long n;
+    unsignes n;
     while(std::cin >> n)
     {
         if(is_prime(n))
