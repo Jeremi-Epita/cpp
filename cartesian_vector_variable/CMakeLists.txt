@@ -3,4 +3,4 @@ project(cartesian_vector_variable)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(main  main.cc vector.cc)
+add_executable(main  main.cpp vector.cpp)

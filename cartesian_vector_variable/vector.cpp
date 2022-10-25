@@ -1,7 +1,7 @@
 #include <ostream>
 #include <memory>
 
-#include "vector.hh"
+#include "vector.h"
 
 Vector::Vector(const Vector& rhs)
     : N(rhs.N)
