@@ -4,7 +4,7 @@
 #include "vector.h"
 
 #include <vector>
-#include <cstring> //strcmp
+#include <cstring>
 
 void testInit()
 {
